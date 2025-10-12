@@ -30,7 +30,7 @@ data_list = [df.columns.tolist()]+ df.values.tolist()
 
 print(data_list)
 # Créer un objet Image pour le logo
-l="E:\logo.jpg"
+##l="E:\logo.jpg"#Zone d'erreur à gérer
 logo = Image(l)
 logo.drawHeight = 0.5 * inch  # Ajuster la hauteur du logo
 logo.drawWidth = 0.5 * inch  
